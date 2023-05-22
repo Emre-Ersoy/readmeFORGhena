@@ -86,9 +86,9 @@ Understood, I apologize for the confusion. Here is the corrected project timelin
 
 **Duration (Months): 18 Months**
 
-| Project Phase | 2023/1 | 2023/2 | 2024/1 |
-|---|---|---|---|
-| | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 1 | 2 | 3 | 4 | 5 | 6 |
+
+| | 1 | 2 | 3 | 4 | 5 | 6 || 7 | 8 | 9 | 10 | 11 | 12 | 1 | 2 | 3 | 4 | 5 | 6 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Project Management (Project Manager) | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X | X |
 | Introduction Literature Survey (Research Team) | X | X | | | | | | | | | | | | | | | |
 | Concept Generation and Experimental Work (Design Team) | | X | X | | | | | | | | | | | | | | |
