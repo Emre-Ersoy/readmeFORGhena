@@ -207,9 +207,7 @@
     **Question**: Discuss how garbage collection is handled in Python and C++. Explain the benefits and drawbacks of each approach.
 
     **Answer**:
-    - **Python**: Python uses automatic garbage collection. The primary mechanism is reference counting, where each object has a count of references to it, and when this count drops to zero, the memory is deallocated. It also has a cyclic garbage collector to catch reference cycles. The benefit of this approach is that the programmer doesn't
-
- need to explicitly manage memory, which reduces the likelihood of memory leaks. The drawback is that garbage collection can cause performance overhead at runtime.
+    - **Python**: Python uses automatic garbage collection. The primary mechanism is reference counting, where each object has a count of references to it, and when this count drops to zero, the memory is deallocated. It also has a cyclic garbage collector to catch reference cycles. The benefit of this approach is that the programmer doesn't need to explicitly manage memory, which reduces the likelihood of memory leaks. The drawback is that garbage collection can cause performance overhead at runtime.
     
     - **C++**: C++ uses manual memory management, where the programmer is responsible for allocating and deallocating memory through the `new` and `delete` operators. C++ also supports RAII (Resource Acquisition Is Initialization) principle, where resources are tied to object lifetime (scoped resource management). The benefit of manual memory management is that it can be more efficient since there is no garbage collector running in the background. The drawback is that it's easier to make mistakes, like memory leaks or accessing freed memory, which can lead to bugs and security vulnerabilities.
 
